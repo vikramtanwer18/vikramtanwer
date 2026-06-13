@@ -9,52 +9,50 @@ const projectsData = [
     {
         id: 1,
         title: "Cover Launch",
-        description: "A high-performance technical publishing platform built with Next.js 15, featuring dynamic 3D hero sections, full-stack moderation, and optimized SEO.",
-        category: "DEVELOPMENT",
+        description: "CoverLaunch is a full-stack Insurance Lead Management Platform built to streamline the entire lead lifecycle for American Standard Insurance. At its heart is an AI-powered Lead Engine chatbot that collects user details, qualifies leads using business logic, and automatically schedules meetings for high-intent prospects — reducing manual effort by 70%. The platform provides separate, role-based dashboards for Admins, Agents, and Affiliates, and integrates Facebook Campaign Management to drive and track lead generation at scale.",
+        category: "Frontend Development",
         image: "/CoverLaunch.png",
-        primary: true,
-        githubLink: "https://github.com/PriyanshiGoyal-15/Blog-App",
-        liveLink: "https://blog-app-jet-delta.vercel.app/"
+        primary: false,
+        // githubLink: "https://github.com/PriyanshiGoyal-15/Blog-App",
+        liveLink: "https://coverlaunch.com"
     },
     {
         id: 2,
         title: "Travulu ",
-        description: "A full-stack MERN food delivery platform with a responsive UI, featuring real-time order processing and intuitive cart management.",
-        category: "DEVELOPMENT",
+        description: "Travulu is an AI-powered travel assistant that makes trip planning effortless and intelligent. Instead of spending hours researching destinations, travelers simply chat with the assistant and receive hyper-personalized recommendations for tourist spots, local cuisine, weather patterns, and optimal travel windows — all based on their current location and preferences. The platform uses a multi-agent architecture to orchestrate specialized agents for hotel discovery and flight booking, delivering a complete trip plan within a single conversation.",
+        category: "Frontend& Multi-Agent Systems Development",
         image: "/Travulu.png",
-        primary: true,
-        githubLink: "https://github.com/PriyanshiGoyal-15/FoodOrder-MERN-PROJECT",
-        liveLink: "#"
+        primary: false,
+        // githubLink: "https://github.com/PriyanshiGoyal-15/FoodOrder-MERN-PROJECT",
+        liveLink: "https://travulu.com"
     },
     {
         id: 3, 
         title: "WebLogik",
-        description: "A sophisticated, empathetic AI-driven wellness ecosystem and real-time mood analytics dashboard engineered to provide a safe, high-fidelity space for emotional reflection and mental clarity.",
-        category: "Development",
+        description: "WebLogik is a full-scale AI-powered Learning Management System built to transform how organizations deliver and consume education. The platform supports a 3-tier architecture — Master Admin, White-label Organization Admin, and Learners — enabling businesses to launch fully branded learning portals through wildcard subdomain routing with zero per-client configuration. At its core, it uses a production-grade Agentic RAG pipeline to deliver intelligent, context-aware learning experiences at scale.",
+        category: "Backend & Rag Orchestrator Development",
         image: "/WebLogik.png", // Using the beautiful logo we just generated
-        primary: true,
-        githubLink: "https://github.com/PriyanshiGoyal-15/EMORA.git",
-        liveLink: "https://getemoraai.vercel.app/"
+        primary: false,
+        // githubLink: "https://github.com/PriyanshiGoyal-15/EMORA.git",
+        liveLink: "https://weblogik.ai"
     },
     {
         id: 4,
-        title: "Gym Os",
-        description: "An elite, AI-powered resume orchestration suite and diagnostic dashboard engineered to bridge the gap between human professional merit and modern algorithmic screening patterns.",
-        category: "Talent Intelligence Platform",
+        title: "Zemmer",
+        description: "A comprehensive, multi-tenant SaaS platform engineered from the ground up to digitize and automate the complete operational stack of modern fitness centers. The platform serves a B2B2C model — gym owners and staff manage operations through a privileged backend, while members experience a seamless self-service frontend — all within a single, unified system. Architected with strict tenant data isolation, a subscription billing state machine, blueprint-based class scheduling, a built-in sales CRM, and a hardware-free QR attendance system, this platform is designed to replace 4–5 disconnected tools with one cohesive product.",
         image: "/GymOs.jpeg",
-        primary: false,
-        githubLink: "https://github.com/PriyanshiGoyal-15/Aura-Resume_Analyzer.git",
-        liveLink: "https://aura-resume-analyzer.vercel.app/"
+        primary: true,
+        liveLink: "https://github.com/vikramtanwer18",
+        githubLink:"https://github.com/vikramtanwer18",
     },
     {
         id: 5,
         title: "P2P BOT",
-        description: "An elite, AI-powered resume orchestration suite and diagnostic dashboard engineered to bridge the gap between human professional merit and modern algorithmic screening patterns.",
-        category: "Talent Intelligence Platform",
+        description: "uilt a full-stack automation system for Binance P2P crypto trading that eliminates 100% manual intervention. The bot monitors live buy orders, drives an intelligent multi-step chat flow with sellers inside the Binance P2P chat window, validates PAN cards via government KYC API for TDS compliance, and triggers automatic INR payouts (IMPS/RTGS/UPI) through Razorpay X — all within 60 seconds of an order being placed.",
         image: "/P2PBOT.jpeg",
-        primary: false,
-        githubLink: "https://github.com/PriyanshiGoyal-15/Aura-Resume_Analyzer.git",
-        liveLink: "https://aura-resume-analyzer.vercel.app/"
+        primary: true,
+        githubLink: "https://github.com/vikramtanwer18",
+        liveLink: "https://agpssvda.com/"
     },
 ]
 

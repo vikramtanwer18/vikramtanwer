@@ -5,20 +5,20 @@ const skillCategories = [
     {
         category: "Generative & Agentic AI",
         items: [
+            { name: "Agentic AI", primary: true },
+            { name: "RAG Orchestrator", primary: true },
             { name: "LangChain", primary: true },
-            { name: "LlamaIndex", primary: true },
-            { name: "OpenAI API", primary: true },
+            { name: "LangGraph", primary: true },
+            { name: "OpenAI & Claude Agent SDK", primary: true },
             { name: "Hugging Face", primary: false },
-            { name: "RAG Platforms", primary: true },
-            { name: "Agentic AI", primary: true }
         ]
     },
     {
         category: "Programming Languages",
         items: [
-            { name: "TypeScript", primary: true },
             { name: "JavaScript ES6+", primary: true },
             { name: "Python", primary: true },
+            { name: "TypeScript", primary: true },
             { name: "HTML5", primary: false },
             { name: "CSS3", primary: false }
         ]
@@ -40,10 +40,10 @@ const skillCategories = [
         category: "Backend & Databases",
         items: [
             { name: "Node.js", primary: true },
-            { name: "Pyhton", primary: true },
+            { name: "FastAPI", primary: true },
             { name: "MongoDB", primary: true },
             { name: "PostgreSQL", primary: true },
-            { name: "REST APIs", primary: false }
+            { name: "MySQL", primary: false }
         ]
     },
     {
@@ -64,7 +64,7 @@ const skillCategories = [
             { name: "VS Code", primary: true },
             { name: "Postman", primary: true },
             { name: "Chrome DevTools", primary: false },
-            { name: "NPM", primary: false },
+            { name: "Claude Code", primary: true },
             { name: "Antigravity", primary: true }
         ]
     }

@@ -5,7 +5,7 @@ const experienceData = [
         id: 1,
         company: "Fonix Technologies",
         role: "Full Stack & GenAI Developer",
-        duration: "05/2025 – Present",
+        duration: "05/2024 – Present",
         location: "Jaipur",
         accomplishments: [
             "Engineered an autonomous Lead Qualification Engine using OpenAI that processed 1,000+ leads with a 99% accuracy rate in identifying high-value prospects.",
@@ -14,20 +14,20 @@ const experienceData = [
             "Architected secure, multi-provider authentication workflows using NextAuth.js, integrating Google OAuth, Facebook, and custom JWT-based authentication systems.",
             "Orchestrated application deployment on Hostinger VPS using Docker and Nginx, managing domain configurations via Amazon Route 53 to ensure 99.9% system availability."
         ],
-        tools: "OPENAI, LANGGRAPH, CHROMADB, STRIPE, RAZORPAY, NEXTAUTH.JS, DOCKER, NGINX, HOSTINGER VPS, AWS ROUTE 53, NEXT.JS, TYPESCRIPT"
+        tools: "AGENTIC AI, RAG ORCHESTRATOR, LANGCHAIN, LANGGRAPH,VECTOR DB,JAVASCRIPT, PYTHON, NEXTAUTH.JS, DOCKER, NGINX, HOSTINGER VPS, AWS ROUTE 53, NEXT.JS, TYPESCRIPT"
     },
     {
         id: 2,
         company: "3 Handshake PVT LTD",
         role: "Software Developer Intern",
-        duration: "07/2024 – 01/2025",
+        duration: "06/2024 – 12/2024",
         location: "Jaipur",
         accomplishments: [
             "Engineered an automated backup verification system using Bash scripting to validate data integrity across 300+ daily system backups, improving reliability and reducing potential data corruption risks.",
             "Boosted frontend performance and reduced initial load latency by implementing dynamic code splitting and lazy loading strategies in React applications.",
             "Optimized frontend–backend API interactions, improving application responsiveness and ensuring efficient real-time data rendering."
         ],
-        tools: "BASH SCRIPTING, REACT.JS, FRONTEND OPTIMIZATION, API INTEGRATION, GIT, GITHUB"
+        tools: "JAVASCRIPT, PYTHON,TYPESCRIPT, REACT.JS, NEXT.JS FRONTEND OPTIMIZATION, API INTEGRATION, GIT, GITHUB"
     }
 ];
 
